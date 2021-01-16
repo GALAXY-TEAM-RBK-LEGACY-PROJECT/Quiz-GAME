@@ -10,4 +10,5 @@ import { WelcomeComponent } from './welcome.component';
   declarations: [ AppComponent, WelcomeComponent ],
   bootstrap:    [ AppComponent ]
 })
+
 export class AppModule { }
