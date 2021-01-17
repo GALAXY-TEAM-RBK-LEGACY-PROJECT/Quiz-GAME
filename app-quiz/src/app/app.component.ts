@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
- buttonName = "🚀 Start the Quiz 🚀";
+ buttonName = "🚀 𝙎𝙩𝙖𝙧𝙩 𝙩𝙝𝙚 𝙌𝙪𝙞𝙯 🚀";
  begin = false;
  complete = false;
  questions: any;
@@ -19,7 +19,7 @@ export class AppComponent  {
    this.questions = [
      {
        id: 1,
-       question: ' 📝 Question 1: Which is the largest country in the world by population?',
+       question: ' 📝 𝙌𝙪𝙚𝙨𝙩𝙞𝙤𝙣 1: 𝙒𝙝𝙞𝙘𝙝 𝙞𝙨 𝙩𝙝𝙚 𝙡𝙖𝙧𝙜𝙚𝙨𝙩 𝙘𝙤𝙪𝙣𝙩𝙧𝙮 𝙞𝙣 𝙩𝙝𝙚 𝙬𝙤𝙧𝙡𝙙 𝙗𝙮 𝙥𝙤𝙥𝙪𝙡𝙖𝙩𝙞𝙤𝙣?',
        option: [
          {optionid: 1, name: 'India'},
          {optionid: 2, name: 'USA'},
@@ -31,7 +31,7 @@ export class AppComponent  {
      },
      {
        id: 2,
-       question: '📝 Question 2: When did the second world war end?',
+       question: '📝 𝙌𝙪𝙚𝙨𝙩𝙞𝙤𝙣 2: 𝙒𝙝𝙚𝙣 𝙙𝙞𝙙 𝙩𝙝𝙚 𝙨𝙚𝙘𝙤𝙣𝙙 𝙬𝙤𝙧𝙡𝙙 𝙬𝙖𝙧 𝙚𝙣𝙙?',
        option: [
          {optionid: 1, name: '1945'},
          {optionid: 2, name: '1939'},
@@ -43,7 +43,7 @@ export class AppComponent  {
      },
      {
        id: 3,
-       question: '📝 Question 3: Which was the first country to issue paper currency?',
+       question: '📝 𝙌𝙪𝙚𝙨𝙩𝙞𝙤𝙣 3: 𝙒𝙝𝙞𝙘𝙝 𝙬𝙖𝙨 𝙩𝙝𝙚 𝙛𝙞𝙧𝙨𝙩 𝙘𝙤𝙪𝙣𝙩𝙧𝙮 𝙩𝙤 𝙞𝙨𝙨𝙪𝙚 𝙥𝙖𝙥𝙚𝙧 𝙘𝙪𝙧𝙧𝙚𝙣𝙘𝙮?',
        option: [
          {optionid: 1, name: 'USA'},
          {optionid: 2, name: 'France'},
@@ -55,7 +55,7 @@ export class AppComponent  {
      },
      {
        id: 4,
-       question: '📝 Question 5: Which city hosted the 1996 Summer Olympics?',
+       question: '📝 𝙌𝙪𝙚𝙨𝙩𝙞𝙤𝙣 4: 𝙒𝙝𝙞𝙘𝙝 𝙘𝙞𝙩𝙮 𝙝𝙤𝙨𝙩𝙚𝙙 𝙩𝙝𝙚 1996 𝙎𝙪𝙢𝙢𝙚𝙧 𝙊𝙡𝙮𝙢𝙥𝙞𝙘𝙨?',
        option: [
          {optionid: 1, name: 'Atlanta'},
          {optionid: 2, name: 'Sydney'},
@@ -67,7 +67,7 @@ export class AppComponent  {
      },
      {
        id: 5,
-       question: '📝 Question 5: Who invented telephone?',
+       question: '📝 𝙌𝙪𝙚𝙨𝙩𝙞𝙤𝙣 5: 𝙒𝙝𝙤 𝙞𝙣𝙫𝙚𝙣𝙩𝙚𝙙 𝙩𝙚𝙡𝙚𝙥𝙝𝙤𝙣𝙚?',
        option: [
          {optionid: 1, name: 'Albert Einstein'},
          {optionid: 2, name: 'Alexander Graham Bell'},

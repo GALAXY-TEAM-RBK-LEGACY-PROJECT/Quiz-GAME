@@ -3,6 +3,7 @@ input[type="radio"].quiz-radio {
     margin: 0 20px 0 20px;
     text-decoration: underline;
     text-transform: uppercase;
+    
   }
   
   .btn:focus, .btn:active, .btn:active:focus {
@@ -13,12 +14,14 @@ input[type="radio"].quiz-radio {
   }
   
   .row1 {
+    font-size: 18px;
     margin-top: 130px;
     text-align: center;
     text-decoration: underline;
     text-size-adjust: 80%;
     text-transform: uppercase;
     color: black
+    
     
   }
   .row{
@@ -59,4 +62,9 @@ input[type="radio"].quiz-radio {
   }
   .screen{
     background-image: url(https://lh3.googleusercontent.com/proxy/f3lKEuk_cIvY1_nVlC310BQqpTstbli8mrYFPu9DRWy0-cqavbaPOrbflEyLTrWfuQCbNNBNxRyLbF61xO3cTwEAHH3NMek);
+  }
+
+  .btn {
+    background-color: red;
+    position:relative; ; top:55px; ;
   }
